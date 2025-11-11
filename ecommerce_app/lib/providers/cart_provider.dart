@@ -78,6 +78,7 @@ class CartProvider with ChangeNotifier {
 
   CartProvider() {
     print('CartProvider created.');
+    initializeAuthListener();
   }
 
   void initializeAuthListener() {
